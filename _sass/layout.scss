@@ -1,0 +1,49 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: $footer;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.header-blocker {
+    margin-top: $header;
+}
+
+.hero-desc {
+    margin: 0 2rem;
+}
+
+.info-container {
+    padding: 1.5rem;
+    overflow: auto;
+}
+
+.info-container > .container > * {
+    margin: 2rem 0 0 0;
+}
+
+.info-container > .container > *:last-child {
+    margin: 2rem 0 2rem 0;
+}
+
+.pd {
+    padding: 2rem;
+}
+
+.jumbotron {
+    margin-top: 2em;
+    background-color: transparent;
+}
+
+.br-1 {
+    border-radius: 1rem;
+}

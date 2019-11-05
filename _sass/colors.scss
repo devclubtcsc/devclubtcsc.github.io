@@ -1,0 +1,39 @@
+.white {
+    color: $white !important;
+}
+
+.black {
+    color: $black !important;
+}
+
+.raised {
+    box-shadow: 0 6px 10px -4px rgba(14,13,26,0.1), 0 6px 22px 4px rgba(7,48,114,0.1), 0 12px 18px 2px rgba(34,0,51,0.05);
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.bg-sapphire {
+    background-color: $sapphire;
+}
+
+.bg-white-gradient {
+    background-image: linear-gradient(47deg, #F3F1F1 0%, #F6F2F2 100%);
+}
+
+.bg-red-gradient {
+    background-image: linear-gradient(47deg, #e31586 0%, #fc4054 51%, #ff9641 100%);
+}
+
+.bg-blue-gradient {
+    background-image: linear-gradient(47deg, $sapphire 0%, #0090ed 100%);
+}
+
+.bg-purple-gradient {
+    background-image: linear-gradient(47deg, #0090ed 0%, #b832e0 100%);
+}

@@ -1,0 +1,36 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $footer;
+}
+
+.footer > .bg-black {
+    padding: 2rem;
+}
+
+.footer > .bg-sapphire {
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li > a {
+    text-decoration: none;
+    color: $white;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer li > a:hover {
+    color: darken($white, 20);
+    transition: all 0.2s ease-in-out;
+}
+
+.made-by {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
