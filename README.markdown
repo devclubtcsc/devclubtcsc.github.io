@@ -71,7 +71,7 @@ The generator uses Jekyll as backend framework to generate the website.
 To add a new feature or fix a bug follow the steps - 
 
 - Make sure your local workspace is up-to-date with the main repository.
-    - Add the original repository as `upstream` in you local git remote `git remote add upstream https://github.com/Terasology/terasology.github.io`
+    - Add the original repository as `upstream` in you local git remote `git remote add upstream https://github.com/devclubtcsc/devclubtcsc.github.io`
     - Fetch the latest code `git fetch upstream`
     - Checkout to your local master branch `git checkout master`
     - Merge changes from `upstream/master` to sync `git merge upstream/master`
