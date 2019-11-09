@@ -85,4 +85,4 @@ To add a new feature or fix a bug follow the steps -
 
 ## Contributors
 
-A list of contributors can be found [here](https://github.com/devclubtcsc/devclubtcsc/graphs/contributors).
+A list of contributors can be found [here](https://github.com/devclubtcsc/devclubtcsc.github.io/graphs/contributors).
