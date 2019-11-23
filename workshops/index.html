@@ -1,13 +1,14 @@
 ---
-layout: default
-title: Blog1
-category: blog1
+layout: blog
+title: Workshops
+category: workshops
 ---
 {% for post in site.posts %}
-  {% if post.categories contains 'blog' %}
-    <div class="post">
+  {% if post.categories contains 'workshops' %}
+    <div class="post raised bg-white br-1 pd">
         <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p class="meta">Date: {{ post.date }}</p>
+        <p class="meta">Author: {{ post.author }}</p>
     </div>
   {% endif %}
 {% endfor %}

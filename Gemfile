@@ -12,6 +12,8 @@ source "https://rubygems.org"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 202", group: :jekyll_plugins
 # If you have any plugins, put them here!
+gem "kramdown", "~> 1.17.0"
+gem "rouge", "~> 3.11.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.11.0"
 end
