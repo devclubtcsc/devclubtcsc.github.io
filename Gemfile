@@ -10,12 +10,12 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 4.0.0"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 202", group: :jekyll_plugins
+gem "github-pages", "~> 207", group: :jekyll_plugins
 # If you have any plugins, put them here!
-gem "kramdown", "~> 1.17.0"
-gem "rouge", "~> 3.11.0"
+gem "kramdown", "~> 2.3.0"
+gem "rouge", "~> 3.19.0"
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.11.0"
+  gem "jekyll-feed", "~> 0.13.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
